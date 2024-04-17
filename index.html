@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Repo Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Lucas' stuff</h1>
+        </div>
+
+
+        <div class="tab-container">
+            <button class="tablinks" onclick="openTab(event, 'skyjumping')">videogame "Skyjumping"</button>
+            <button class="tablinks" onclick="openTab(event, 'eye tracking')">eye tracking study</button>
+            <button class="tablinks" onclick="openTab(event, 'UX')">UX study</button>
+            <button class="tablinks" onclick="openTab(event, 'teachable machine')">teachable machine webapp</button>
+            <button class="tablinks" onclick="openTab(event, 'PA')">personal assistants in vehicles study</button>
+            <button class="tablinks" onclick="openTab(event, 'sketches')">concept sketches</button>
+        </div>
+
+        <div id="skyjumping" class="tabcontent">
+            <h2>Skyjumping</h2>
+            <p>A little third person platforming game made for my Level Design classes at the Jagiellonian University (Faculty of Physics, Astronomy and Applied Computer Science at the Jagiellonian University). The level design and architecture was done by me. Assets were pulled from the Unity Store and Sketchfab. Scripts were coded in by starowicz727 (github.com/starowicz727).</p>
+            <p>Below you can watch the gameplay. The game consists of branching paths, dynamic foliage, as well as light sources. I wanted the game to be in a low-poly style, yet feel more akin to a bigger game with higher graphical fidelity. This was achieved by appropriate lighting and dense foliage. Mechanically, the game has easy to master, simple controls. The challenge lies in the platforming - the key was for the experience to be engaging, but not boring, nor frustrating.</p>
+            <div class="video-container">
+                <iframe width="800" height="450" src="https://www.youtube.com/embed/7rUAOmBpff8?si=mGPvdw6QEPq6NcqR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="eye tracking" class="tabcontent">
+            <h2>Eye tracking study</h2>
+            <p>With this eye tracking study I wanted to see if there exists a correlation between the truthfulness of what is perceived in images/common sense and between what is read. The hardware and software were both Tobii Pro Lab branded, kindly given by the Faculty of Physics, Astronomy and Applied Computer Science at the Jagiellonian University. Participants set in front of a laptop with the eye tracker calibrated. Next, they had slides either text, or both images and text.</p>
+            <p>Conclusions: people fixated their eyes on details, which were mentioned by the text (e.g. the “red dress”) or fixated on that, which may be untrue or in fact is untrue (e.g. there is no place like “łuk Słowackiego” in Kraków). </p>
+            <p>Some of the slides with heatmaps are shown below…</p>
+            <div class="video-container">
+                <video controls class="rounded-video" loop autoplay>
+                    <source src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\eye tracking\woda.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>Eng.: "Water is a solvent. Water itself is not wet. Water is a fluid.</p>
+            <p>Note: Participants focused on a specific description to a known substance.</p>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\eye tracking\kobieta.png" alt="Image description">
+            </div>
+            <p>Eng.: "Woman in a red dress."</p>
+            <p>Note: Participants focused on the woman's dress, mainly her back.</p>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\eye tracking\kraków.png" alt="Image description">
+            </div>
+            <p>Eng.: "When I was in Kraków, I saw many beautiful places, like Wawel Castle, Sukiennice, Słowackiego Arc and Jordan's Park"</p>
+            <p>Note: Participants focused on the location which does not exist.</p>
+        </div>
+
+        <div id="UX" class="tabcontent">
+            <h2>UX study</h2>
+            <p>This was a quick study for my User Experience course to see how users feel about using VR during a vehicle review and configuration compared to conventional UIs, like a desktop webapp. The car model was pulled from a video game mod website. The project was inspired by the fact, that there is potential for new alternative ways to view cars for customers at home or at smaller showrooms scattered across cities.</p>
+            <p>Conclusions: while VR is a promising alternative, as users found the experience immersive and realistic, the same users noted that details like materials, their texture and smell, as well as driving dynamics are hard to simulate or even impossible to simulate with current technology.</p>
+            <p>Below you can read the full report, as well as see the VR environment the participants of the study were placed in...</p>
+            <p><a href="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\Łukasz_Kur_UXReport.pdf" target="_blank">Full UX study report</a></p>
+            <div class="video-container">
+                <iframe width="800" height="450" src="https://www.youtube.com/embed/KzaC5hQxjDQ?si=n1uK63NLHA53ga2B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="teachable machine" class="tabcontent">
+            <h2>Teachable Machine webapp</h2>
+            <p>This was a project for my Artificial Intelligence course during my Master’s in Cognitive Science. The model can recognize a set of items from the computer’s camera input. The model “recognizes” the item by displaying a corelating emoji on the user’s display.</p>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\teachable machine\duck.png" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\teachable machine\car.png" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\teachable machine\wall.png" alt="Image description">
+            </div>
+        </div>
+
+
+        <div id="PA" class="tabcontent">
+            <h2>Personal assistants in vehicles study</h2>
+            <p>A survey inspired by the ever growing amount of touch interfaces in cars. The survey asked the participants about how they feel about personal assistants as an alternative to physical- and touch controls. </p>
+            <p>Ironically, not long after my findings, Euro NCAP announced that critical controls need to be physical in cars for them to pass with a high safety score.</p>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\cognitive robotics survey\Slajd8.JPG" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\cognitive robotics survey\Slajd3.jpg" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\cognitive robotics survey\Slajd4.JPG" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\cognitive robotics survey\Slajd5.JPG" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\cognitive robotics survey\Slajd6.JPG" alt="Image description">
+            </div>
+        </div>
+
+        <div id="sketches" class="tabcontent">
+            <h2>car UI concept</h2>
+            <p>Here are some car interior sketches for my UI/UX course.</p>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\sketches\Concept.jpg" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\sketches\Concept1.jpg" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\sketches\Untitled_Artwork2.jpg" alt="Image description">
+            </div>
+            <p>And some sketches for Blender blueprints.</p>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\sketches\Untitled_Artwork1.jpg" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\sketches\Untitled_Artwork5.jpg" alt="Image description">
+            </div>
+            <div class="image-container">
+                <img src="C:\Users\lukas\Documents\Projekty Kogni AI\Lucas Webpage\assets\sketches\BlueprintREAR.jpg" alt="Image description">
+            </div>
+        </div>
+
+
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        
+    </script>
+</body>
+
+</html>
