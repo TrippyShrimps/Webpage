@@ -1,31 +1,13 @@
-@font-face {
-    font-family: 'Iwata-Kaisho';
-    src: url('fonts/Iwata-Kaisho.otf') format('woff2'),
-         url('fonts/Iwata-Kaisho.otf') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Iwata-Kaisho';
-    src: url('fonts/Iwata-Kaisho.otf') format('woff2'),
-         url('fonts/Iwata-Kaisho.otf') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Iwata-Kaisho';
-    font-style: normal;
+    font-family: 'Calibri';
+    font-style: italic;
     letter-spacing: 0.001px; 
     background: #1db99f;
     color: #fff; 
     text-align: center; 
 }
-
-
 
 .container {
     max-width: 800px;
