@@ -1,9 +1,15 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: 'MS Reference Sans Serif';
     font-style: bold;
     letter-spacing: -0.1px; 
+=======
+    font-family: 'Calibri';
+    font-style: italic;
+    letter-spacing: 0.001px; 
+>>>>>>> parent of 6971645 (Update styles.css)
     background: #1db99f;
     color: #fff; 
     text-align: center; 
