@@ -4,14 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Repo Projects</title>
+    <title>Lucas' Journey</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Header and link styling */
+        .header h1 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .header h1 a:hover {
+            text-decoration: underline;
+            color: lightgray;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: MS Reference Sans Serif, sans-serif;
+        }
+
+        .header {
+            padding: 20px 0;
+            text-align: center;
+            background-color: #1db99f;
+            color: white;
+        }
+
+        /* Path container and milestones styling */
+        .path-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .path {
+            width: 3px;
+            background-color: white;
+            position: relative;
+            margin: 20px 0;
+            height: 400px;
+        }
+
+        .milestone {
+            position: relative;
+            background-color: #1db99f;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+            color: white;
+        }
+
+        .milestone img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .milestone .description {
+            margin-top: 10px;
+        }
+
+        .milestone::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+            left: -11px;
+            top: 10px;
+        }
+
+        .milestone.left {
+            text-align: left;
+        }
+
+        .milestone.right {
+            text-align: right;
+            align-self: flex-end;
+        }
+
+    </style>
 </head>
 
 <body>
     <div class="container">
+        <!-- Header with clickable h1 link -->
         <div class="header">
-            <h1>Lucas' stuff</h1>
+            <h1><a href="index.html">Lucas' portfolio</a></h1>
         </div>
 
 
