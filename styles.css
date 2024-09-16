@@ -33,6 +33,12 @@ body {
     padding: 10px; /* Add padding to space out tab content */
 }
 
+@media (max-width: 768px) {
+    .path-container {
+        justify-content: space-around; /* Optional: Makes the tabs more spaced out */
+    }
+}
+
 .tablinks {
     background-color: transparent;
     border: none;
