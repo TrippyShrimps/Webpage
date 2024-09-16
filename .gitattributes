@@ -1,5 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-git revert HEAD~3..HEAD
-git push origin HEAD
-
